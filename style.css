@@ -56,3 +56,7 @@ nav{
     99%{    color: lightslategrey;  }
     100%{   color: #fff;    }
 }
+
+.card-text {
+    color: black;
+  }

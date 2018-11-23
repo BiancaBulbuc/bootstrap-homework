@@ -60,3 +60,7 @@ nav{
 .card-text {
     color: black;
   }
+
+  #work, #homePage {
+      height: 100vh;
+  }

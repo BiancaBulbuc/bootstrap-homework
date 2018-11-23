@@ -1,12 +1,13 @@
 @media (min-width: 1200px) {
     #biaAbout {
+        margin-left: -15px;
         font-size: 1rem;
     }
     #bia {
-      font-size: .5rem;
+      font-size: 0.3rem;
     }
     #homeImg {
-        width: 70px;
+        width: 100px;
     }
     
   }

@@ -13,234 +13,507 @@
     <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    
+    
   </head>
-  <body>
+<body>
 
-    <section id="homePage">
-        <nav class="navbar navbar-dark bg-dark" class="navbar navbar-expand-lg navbar-light bg-light" class="navbar navbar-light" style="background-color: #e3f2fd;">
-            <a class="navbar-brand" href="#">Navbar w/ text</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-              </ul>
-              <span class="navbar-text">
-                Navbar text with an inline element
-              </span>
-            </div>
-          </nav>
-
-
-
-
-
-
-
-        <!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-         
-          </nav>
-        <nav class="navbar sticky-top navbar " class="navbar navbar-light" style="background-color: #e3f2fd;">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler navbar-inverse" class="custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon" class="custom-toggler" ></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#about">About</a>
-                <a class="nav-item nav-link" href="#work">Work</a>
-                <a class="nav-item nav-link" href="#likes">Likes</a>
-                <a class="nav-item nav-link" href="#contact">Contact</a>
-              </div>
-            </div>
-          </nav> 
- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <nav class="navbar fixed-top navbar-expand-md">
-            <div class="container">
-              <a class="navbar-brand" href="#homePage">Bianca</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-              
-                <ul class="navbar-nav mr-auto">
-          
-                 
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#homePage">Home
-                      <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-          
-               
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#likes">Likes</a>
-                      </li>
-          
-                
-          
-                </ul>
-          
-                
-                <ul class="nav navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-              <a class="nav-item nav-link" href="#about">About</a>
-              <a class="nav-item nav-link active" href="#work">Work<span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#likes">Likes</a>
-              <a class="nav-item nav-link" href="#contact">Contact</a> -->
-            </div>
-          </div>
-      </nav>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img id="homeImg" src="images/home.jpg" style="width:700px;" alt="">
-          </div>
-          <div class="col">
-            <h1 id="bia">Bianca</h1>
-            <p id="biaAbout">The best designs are timeless</p>
+<section id="homePage">
+    <nav id="navbarBia" class="navbar fixed-top navbar navbar-expand-lg" class="fixedNav">
+        <a class="navbar-brand" href="#">B</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span id = "hamburger" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#homePage">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#work">Portfolio</a>
+            <a class="nav-item nav-link" href="#blog">Blog</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
         </div>
+    </nav>
+    <div class="media">
+      <div class="media-body">
+        <h1 id="bia" class="mt-0 mb-1">Bianca</h1>
+        <p id="bia2"> The best designs are
+        <span id="biaAbout">time</span>less</p>
       </div>
-      <i class="fas fa-angle-down"></i>
-    </section>
+      <img class="homeImg" src="images/home.jpg" class="img-fluid" alt="Responsive image">
+      <!-- <img class="homeImg" class="ml-3" class="img-fluid" src="images/home.jpg"  alt="Generic placeholder image"> -->
+    </div>
+    
+
+</section>
 
 
-    <section id="about">
 
+
+
+
+
+
+
+<a href="" id="about" style="visibility:hidden;">about</a>
+<section>
+    <h2 class="h1-responsive font-weight-bold my-5">About me</h2>
+  <!-- Jumbotron -->
+<div class="jumbotron p-0">
+
+    <!-- Card image -->
+    <div class="view overlay rounded-top">
+      <img src="images/zaha.gif" class="img-fluid" alt="Sample image">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+  
+    <!-- Card content -->
+    <div class="card-body text-center mb-3">
+  
+      <!-- Title -->
+      <h3 class="card-title h3 my-4" style="color: lightslategrey"><strong>Architecture Background</strong></h3>
+      <!-- Text -->
+      <p class="card-text py-2">I am continuously seeking out creative approaches of an architectural challenge intending to
+          improve social and economic values.
+          At the present time I wish to extend my horizons in offering to the world visual outputs that can
+          provide helpfull or fun enviornments.
+          With a desire to constantly progress and learn new conceptual solutions, I oriented myself to the
+          IT world.
+          I have always enjoyed providing fast result and help business or fun concept to evolve.</p>
+      <!-- Button -->
+      <a href="#" class="btn purple-gradient btn-rounded mb-4">Button</a>
+  
+    </div>
+  
+  </div>
+  <div class="jumbotron p-0">
+
+      <!-- Card image -->
+      <div class="view overlay rounded-top">
+        <img src="images/svgAsset 4@150x.png" class="img-fluid" alt="Sample image">
+        <a href="#">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+    
+      <!-- Card content -->
+      <div class="card-body text-center mb-3">
+    
+        <!-- Title -->
+        <h3 class="card-title h3 my-4" style="color: lightslategrey"><strong>IT Background and Beginnings</strong></h3>
+        <!-- Text -->
+        <p class="card-text py-2">Already being oriented to the it world and the visual expression of concepts, I decided to follow
+            the world of Web, Front End.
+            My journey started all alone, on any websites and tutorials I could find. Then, I started the Intro
+            in It course at Scoala Informala.
+            Meanwhile I was lucky enough to find a job and be completly involved in this front end development.
+            Now I am here, at the Front end Dev Program, so we will see each other a lot the next 5 months.</p>
+        <!-- Button -->
+        <a href="#" class="btn purple-gradient btn-rounded mb-4">Button</a>
+    
+      </div>
+    
+    </div>
+  <!-- Jumbotron -->
+
+
+
+</section>
+
+<a href="" id="work" style="visibility:hidden;">work</a>
+<section>
+  
+<!-- Section heading -->
+<h2 class="h1-responsive font-weight-bold my-5">Portfolio</h2>
+<!-- Section description -->
+<p class="grey-text w-responsive mx-auto mb-5">Here are some of my latest work in both domains I am working.
+</p>
+
+<!-- Grid row -->
+<div class="row text-center">
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+    <!--Featured image-->
+    <div class="view overlay rounded z-depth-1">
+      <img src="images/D.png" class="img-fluid" alt="Sample project image">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <!--Excerpt-->
+    <div class="card-body pb-0">
+      <h4 class="font-weight-bold my-3">Home interior design</h4>
+      <p class="grey-text">This is a luxorious apartment in the center of the city Brasov.
+      </p>
+      <a class="btn btn-indigo btn-sm"><i class="fa fa-clone left"></i> View project</a>
+    </div>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+    <!--Featured image-->
+    <div class="view overlay rounded z-depth-1">
+      <img src="images/casaizvor.png" class="img-fluid" alt="Sample project image">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <!--Excerpt-->
+    <div class="card-body pb-0">
+      <h4 class="font-weight-bold my-3">Home near Brasov</h4>
+      <p class="grey-text">A simple home near Brasov, with a very cozy landscape and a delightful warm interior.
+      </p>
+      <a class="btn btn-indigo btn-sm" href=""><i class="fa fa-clone left"></i> View project</a>
+    </div>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6">
+    <!--Featured image-->
+    <div class="view overlay rounded z-depth-1">
+      <img src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" class="img-fluid" alt="Sample project image">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <!--Excerpt-->
+    <div class="card-body pb-0">
+      <h4 class="font-weight-bold my-3">Title of the news</h4>
+      <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+        eveniet ut et voluptates repudiandae.
+      </p>
+      <a class="btn btn-indigo btn-sm" href=""><i class="fa fa-clone left"></i> View project</a>
+    </div>
+  </div>
   
 
 
-    </section>
 
-    <section id="work">
-        <div class="card-group">
-            <div class="card">
-              <img class="card-img-top" src="images/f845d11b65ece845bfcd7fc5814c4f75_conceptual-architecture-drawing-clipartxtras-conceptual-drawing-architecture_1600-1098.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Drawings</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
+  <a href="" id="blog" style="visibility:hidden;">blog</a>  
+ 
+  <!-- Section: Blog v.3 -->
+<section id="blogSection" class="my-5">
+
+    <!-- Section heading -->
+    <h2 id="blogTitle" class="h1-responsive font-weight-bold my-5">Blog</h2>
+    <!-- Section description -->
+    <p class="text-center dark-grey-text w-responsive mx-auto mb-5">Here are some really great websites I like and follow as an example.</p>
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+  
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://assets.awwwards.com/awards/sites_of_the_day/2018/12/veolia-water.jpg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+  
+        <!-- Post title -->
+        <a style="color: #31C0D8; text-decoration:none" href="https://kopke1638.com/">
+          <h3 class="font-weight-bold mb-3"><strong>Veolia Water</strong></h3> 
+        </a>
+        
+        <!-- Excerpt -->
+        <p class="dark-grey-text">Follow the journey of a water drop with Veolia, you may be surprised by how amazing the production of potable water is!</p>
+        <!-- Post data -->
+        <p>by <a class="font-weight-bold">Jessica Clark</a>, 04/12/2018</p>
+        <!-- Read more button -->
+        <a href="https://www.awwwards.com/sites/veolia-water" class="btn btn-primary btn-md">Read more</a>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
+  
+    <hr class="my-5">
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+  
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+        
+          <img class="img-fluid" src="https://assets.awwwards.com/awards/sites_of_the_day/2018/11/kopke-since-1638-1.jpg" alt="Sample image">
+          
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+  
+        <!-- Post title -->
+        <a style="color: #D8B030; text-decoration:none" href="https://kopke1638.com/">
+        <h3 class="font-weight-bold mb-3"><strong>Kopke</strong></h3>
+        </a>
+        <!-- Excerpt -->
+        <p class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+          praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+          cupiditate non provident et accusamus iusto odio dignissimos et dolorum fuga.</p>
+        <!-- Post data -->
+        <p>by <a class="font-weight-bold">Tiago Ferreira</a>, 27/11/2018</p>
+        <!-- Read more button -->
+        <a href="https://www.awwwards.com/sites/kopke-since-1638" class="btn btn-primary btn-md">Read more</a>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
+  
+    <hr class="my-5">
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+  
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://assets.awwwards.com/awards/sites_of_the_day/2018/11/climate-1.jpg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+  
+        <!-- Post title -->
+        <a style="color: #CECDCC; text-decoration:none" href="http://thisisclimate.com/">
+        <h3 class="font-weight-bold mb-3"><strong>Climate</strong></h3>
+        </a>
+        <!-- Excerpt -->
+        <p class="dark-grey-text">Climate provides creative development and production in the branded, digital, and original content space.</p>
+        <!-- Post data -->
+        <p>by <a class="font-weight-bold">Niccolo Miranda</a>, 02/12/2018</p>
+        <!-- Read more button -->
+        <a href="https://www.awwwards.com/sites/climate" class="btn btn-primary btn-md">Read more</a>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
+  
+  </section>
+  <!-- Section: Blog v.3 -->
+  
+ 
+  <a href="#contact" id="contact" style="visibility:hidden;">contact</a>  
+ 
+  <!--Section: Contact v.2-->
+<section id="contactForm" class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="images/233_concept.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="images/f845d11b65ece845bfcd7fc5814c4f75_conceptual-architecture-drawing-clipartxtras-conceptual-drawing-architecture_1600-1098.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-            </div>
-          </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
 
-    </section>
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>Brasov, ROMANIA</p>
+                </li>
 
-    <section id="likes">
+                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                    <p>0751423875</p>
+                </li>
 
-    </section>
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p><a id="contactMail" href="mailto:bulbuc.bianca@gmail.com">bulbuc.bianca@gmail.com</a></p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
 
-    <section id="contact">
-        <footer class="container mt-4">
-            <div class="row">
-              <div class="col">
-                <p class="text-center"><a href="mailto:bulbuc.bianca@gmail.com">bulbuc.bianca@gmail.com</a></p>
-              </div>
-            </div>
-          </footer>
+    </div>
 
-    </section>
+</section>
 
-
-
-
-
-
-
-
-
-
-
-    <div>
-        <!-- Optional JavaScript -->
-           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-          <script src="script.js"></script>
+<!--Section: Contact v.2-->
+<footer class="footer">
+    <div class="container bottom_border">
+    <div class="row">
+    <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Find me</h5>
+    <!--headin5_amrc-->
+    <p class="mb10">Well, I live in Brasov, studing at Scoala Informala</p>
+    <p><i class="fa fa-location-arrow"></i> Brasov </p>
+    <p><i class="fa fa-phone"></i>  004075622654  </p>
+    <p><i class="fa fa fa-envelope"></i> <a href="mailto:bulbuc.bianca@gmail.com">bulbuc.bianca@gmail.com </a></p>
+    
+    
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-6 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Quick links I like and follow</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc">
+    <li><a href="https://www.awwwards.com/">Awwwards</a></li>
+    <li><a href="https://www.archdaily.com/">Archdaily</a></li>
+    <li><a href="https://codepen.io/">Code Pen</a></li>
+    <li><a href="https://freshome.com/">Freshome</a></li>
+ 
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+     
+    
+    
+    <div class=" col-sm-4 col-md  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Follow me</h5>
+    <!--headin5_amrc ends here-->
+    
+    <ul class="footer_ul2_amrc">
+    <li><a href="https://www.facebook.com/bia.bb"><i class="fab fa-facebook-f fleft padding-right"></i> </a><p>I am on facebook: <a href="https://www.facebook.com/bia.bb">facebook.com/bia.bb</a></p></li>
+    <li><a href="https://www.facebook.com/bia.bb"><i class="fab fa-linkedin fleft padding-right"></i> </a><p>and on Linkedin: <a href="https://www.linkedin.com/in/bianca-bulbuc-149b6b47/">linkedin.com/in/bianca-bulbuc</a></p></li>
+    <!-- <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li> -->
+    </ul>
+    <!--footer_ul2_amrc ends here-->
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="container">
+      <ul class="foote_bottom_ul_amrc">
+      <li><a href="#homePage">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Portfolio</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!--foote_bottom_ul_amrc ends here-->
        
-           </div>
-  </body>
+      
+      <ul class="social_footer_ul">
+      <li><a href="https://www.facebook.com/bia.bb"><i class="fab fa-facebook-f"></i></a></li>
+       
+      <li><a href="https://www.linkedin.com/in/bianca-bulbuc-149b6b47/"><i class="fab fa-linkedin"></i></a></li>
+     
+      </ul>
+      <!--social_footer_ul ends here-->
+    </div>
+    
+    </footer>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
 </html>

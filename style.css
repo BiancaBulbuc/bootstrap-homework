@@ -1,28 +1,5 @@
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
-
-
-
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 768px) { 
-   
 #biaAbout {
-    font-size: 0.1em;
+    font-size: 0.4em;
     -vendor-animation-duration: 3s;
     -vendor-animation-delay: 2s;
     -vendor-animation-iteration-count: infinite;
@@ -32,8 +9,9 @@
     font-size: 0.3rem;
 }
 
-.homeImg {
+#homeImg {
     width: 100px;
+     
 } 
 
 section {
@@ -42,7 +20,7 @@ section {
 }
 
 
-}
+
 
 body {
     color: white;
@@ -77,11 +55,8 @@ a:hover {
     margin-top: 300px;
     margin-left: 100px;
 }
+
  
-@media (min-width: 1200px) {
-
-
-    
 section {
     width: 90%;
     margin-left: 75px;
@@ -134,7 +109,7 @@ section {
     margin-top: 180px;
 }
 
-.homeImg {
+#homeImg {
     width: 600px;
     margin-left: -170px;
     margin-top: 150px;

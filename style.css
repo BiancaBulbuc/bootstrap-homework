@@ -1,36 +1,31 @@
+.mainContainer {
+    width: 100%;
+    padding:5%;
+}
+
+
 #biaAbout {
     font-size: 0.4em;
     -vendor-animation-duration: 3s;
     -vendor-animation-delay: 2s;
     -vendor-animation-iteration-count: infinite;
+    font-family: 'Allerta Stencil', sans-serif;
 }
-
-#bia {
-    font-size: 0.3rem;
-}
-
-#homeImg {
-    width: 100px;
-     
-} 
 
 section {
-    width: 90%;
-    margin-left: 75px;
+    width: 100%;
+    /* margin-left: 75px; */
 }
 
-
-
-
 body {
+    font-family: 'Rubik', sans-serif;
     color: white;
     width:100%;
-    font-family: 'Allerta Stencil', sans-serif;
     background-color: black;
 }
 
 .fixedNav {
-  
+    font-family: 'Allerta Stencil', sans-serif;
     background-color: black;
 }
 
@@ -40,6 +35,7 @@ body {
 
 #navbarBia {
     background-color: black; 
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 a {
@@ -51,71 +47,43 @@ a:hover {
     background: none;
 }
 
-.media-body {
-    margin-top: 300px;
-    margin-left: 100px;
-}
-
- 
-section {
-    width: 90%;
-    margin-left: 75px;
-}
-
-#blogSection{
-    width:100%;
-   
-}
-
-
-
-#blogSection {
+.biaText {
+    padding-top:150px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    font-size: .7rem;
     width: 100%;
-    margin:0;
+
 }
 
-#blogTitle {
-    padding-top:30px;
+.biaText:first-child {
+    width:50%;
 }
 
-#contactTitle {
-    padding-top: 10px;
-}
-
-#formContent {
-    padding: 85px;
-}
-
-#footerSection {
-    width: 100%;
-    margin:0;
-}
-
-.text-center {
-    text-align: left !important;
-}
-    
-#bia {
-    margin-top: 180px;
+.biaText #bia {
     text-transform: uppercase;
     font-size: 9rem;
-}
-#bia2 {
-    margin-left: 12px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
-#biaAbout {
+.biaText #bia2 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#bia2 #biaAbout {
     font-size: 1em;
-    margin-top: 180px;
+   
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
-#homeImg {
-    width: 600px;
-    margin-left: -170px;
-    margin-top: 150px;
- }
- 
-#biaAbout{
+
+#bia2 #biaAbout{
     animation:blinkingText 3s infinite;
 }
 
@@ -126,12 +94,124 @@ section {
 100%{   color: #fff;    }
 }
 
-.card-text {
-color: black;
+#bia2 #biaAbout {
+    font-size: 0.4em;
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
-#work, #homePage {
-height: 100vh;
+.biaText .biaImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* flex-flow: row; */
+    width: 100%;
+}
+
+.biaImage img {
+    width: 100%;
+}
+
+@media (max-width: 599px) { 
+    .biaText #bia {
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+    
+    .biaText #bia2 {
+        display: inline-block;
+        width: 100%;
+        font-size: .8rem;
+        text-align: center;
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+    
+    #bia2 #biaAbout {
+        font-size: 1em;
+       
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    .biaImage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        /* flex-flow: row; */
+        width: 50%;
+    }
+
+    .biaText {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: center;
+        font-size: .7rem;
+        width: 100%;
+    }
+
+    .biaImage img {
+        width: 50%;
+    }
+}
+
+ 
+ 
+
+ 
+
+#blogSection{
+    width:100%;
+    margin:0;
+   
+}
+
+#aboutTitle{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#blogTitle {
+ 
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#workTitle{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#contactTitle {
+    padding-top: 10px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#formContent {
+    padding-left: 85px;
+    margin:0;
+}
+
+#footerSection {
+    width: 100%;
+    margin:0;
+}
+
+.text-center {
+    text-align: left !important;
+}
+
+
+.card-text {
+color: black;
 }
 
 #contactForm {
@@ -146,9 +226,6 @@ height: 100vh;
 }
 
 
-
-
-
 /*footer*/
 .col_white_amrc { 
     color:#FFF;
@@ -157,7 +234,7 @@ height: 100vh;
 footer {
     width:100%;  
     min-height:250px; 
-    padding:10px 0px 25px 0px ;
+    /* padding:10px 0px 25px 0px ; */
     }
 
 .pt2 {
@@ -269,4 +346,4 @@ footer p {
      height:20px; 
      text-align:center;
 }
-}
+

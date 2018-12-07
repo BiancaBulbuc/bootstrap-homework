@@ -124,6 +124,7 @@ a:hover {
 
 @media (max-width: 599px) { 
     .biaText #bia {
+        padding-left:50px;
         text-transform: uppercase;
         font-size: 4rem;
         font-family: 'Allerta Stencil', sans-serif;
@@ -139,6 +140,10 @@ a:hover {
     #bia2 #biaAbout {
         font-size: 1em;
         font-family: 'Allerta Stencil', sans-serif;
+    }
+
+    .biaImage {
+        padding-left: 10px;
     }
 }
 

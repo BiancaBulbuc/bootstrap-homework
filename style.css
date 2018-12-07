@@ -157,6 +157,7 @@ a:hover {
         justify-content: center;
         /* flex-flow: row; */
         width: 50%;
+    
     }
 
     .biaText {
@@ -168,6 +169,7 @@ a:hover {
         align-content: center;
         font-size: .7rem;
         width: 100%;
+        margin-bottom: 300px;
     }
 
     .biaImage img {
@@ -175,10 +177,6 @@ a:hover {
     }
 }
 
- 
-#homePage {
-    margin-bottom: 850px;
-}
 
  
 
@@ -189,6 +187,7 @@ a:hover {
 }
 
 #aboutTitle {
+    margin-top:400px;
     font-family: 'Allerta Stencil', sans-serif;
 }
 

@@ -74,12 +74,18 @@ a:hover {
     width: 100%;
     text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
+     
 }
 
-#bia2 #biaAbout {
-    font-size: 1em;
-   
+#bia2 {
+    font-size: 2em;
     font-family: 'Allerta Stencil', sans-serif;
+}
+
+#biaAbout {
+    font-size: 1em;
+    font-family: 'Allerta Stencil', sans-serif;
+
 }
 
 
@@ -95,7 +101,7 @@ a:hover {
 }
 
 #bia2 #biaAbout {
-    font-size: 0.4em;
+     
     -vendor-animation-duration: 3s;
     -vendor-animation-delay: 2s;
     -vendor-animation-iteration-count: infinite;
@@ -126,14 +132,12 @@ a:hover {
     .biaText #bia2 {
         display: inline-block;
         width: 100%;
-        font-size: .8rem;
         text-align: center;
         font-family: 'Allerta Stencil', sans-serif;
     }
     
     #bia2 #biaAbout {
         font-size: 1em;
-       
         font-family: 'Allerta Stencil', sans-serif;
     }
 }
@@ -167,7 +171,9 @@ a:hover {
 }
 
  
- 
+#homePage {
+    margin-bottom: 150px;
+}
 
  
 
@@ -177,12 +183,11 @@ a:hover {
    
 }
 
-#aboutTitle{
+#aboutTitle {
     font-family: 'Allerta Stencil', sans-serif;
 }
 
 #blogTitle {
- 
     font-family: 'Allerta Stencil', sans-serif;
 }
 
